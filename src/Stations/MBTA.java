@@ -59,6 +59,7 @@ public class MBTA {
         int startIndex = stations.indexOf(fromStation);
         int endIndex = stations.indexOf(toStation);
         return Math.abs(startIndex - endIndex);
+
     }
 
     public static void main(String[] args) {
